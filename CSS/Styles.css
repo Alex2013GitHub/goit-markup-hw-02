@@ -1,0 +1,92 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575; */
+/* белый #FFFFFF */
+/* акцент  #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+:root{
+    --primary-text-color: #212121;
+    --title-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --button-color:#F5F4FA;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--title-text-color);
+}
+
+.logo{
+    color: var var(--primary-text-color);
+}
+
+.logo-web{
+    color: var(--accent-color);
+}
+/* site nav */
+.site-nav .link{
+    color: var(--primary-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.auth-nav .link{
+    color: var(--primary-text-color) 
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+.link{
+    color: var(--title-text-color);
+}
+
+
+/* Hero */
+
+.hero-title{
+
+}
+
+/* Features */
+ 
+.feature-list .title{
+    color: var(--primary-text-color);
+}
+
+/* Section */
+
+.section-title{
+    color: var(--primary-text-color);
+}
+
+
+/* Button */
+
+.button.primary{
+ color: var(--primary-white-color);
+ background-color: var(--accent-color);
+} 
+.button{
+    color: var(--primary-text-color);
+    background-color: var(--button-color);
+}
+.button:hover,
+.button:focus{
+    color:var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.text{
+    color: var(--title-text-color);
+}
+.text-decoration{
+    text-decoration: none;
+}
