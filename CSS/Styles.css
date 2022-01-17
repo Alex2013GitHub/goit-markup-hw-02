@@ -33,9 +33,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  line-height: 100%;
-  vertical-align: top;
-  letter-spacing: 3%;
   color: var(--lodo-color);
 }
 
@@ -43,7 +40,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 311.2px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -119,7 +116,6 @@ body {
 }
 
 .feature-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -162,7 +158,6 @@ body {
 
 .logo-footer {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -171,9 +166,7 @@ body {
 }
 
 address {
-  font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -204,6 +197,10 @@ address {
   background-color: var(--accent-color);
 }
 
+.visually-hidden {
+  visibility: hidden;
+}
+
 /* -------------Content--------- */
 
 .content-title {
@@ -215,7 +212,6 @@ address {
 }
 
 .content-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
